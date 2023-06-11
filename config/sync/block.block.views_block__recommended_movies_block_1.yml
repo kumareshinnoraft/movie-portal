@@ -1,0 +1,29 @@
+uuid: ceebaa18-55cd-4e78-a9e9-58719f91c583
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recommended_movies
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__recommended_movies_block_1
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:recommended_movies-block_1'
+settings:
+  id: 'views_block:recommended_movies-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /review/%

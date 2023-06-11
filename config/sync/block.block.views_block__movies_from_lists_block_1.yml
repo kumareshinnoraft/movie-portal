@@ -1,0 +1,30 @@
+uuid: da01362b-c33a-4959-94e7-ccd5ef269627
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.movies_from_lists
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__movies_from_lists_block_1
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:movies_from_lists-block_1'
+settings:
+  id: 'views_block:movies_from_lists-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/review/*'

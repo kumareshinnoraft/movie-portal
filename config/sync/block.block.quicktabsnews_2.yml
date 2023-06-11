@@ -1,0 +1,25 @@
+uuid: bcdbf89a-8fac-4932-9373-b93a500cd5cc
+langcode: en
+status: true
+dependencies:
+  module:
+    - quicktabs
+    - system
+  theme:
+    - bartik
+id: quicktabsnews_2
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: 'quicktabs_block:news'
+settings:
+  id: 'quicktabs_block:news'
+  label: News
+  label_display: visible
+  provider: quicktabs
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /News

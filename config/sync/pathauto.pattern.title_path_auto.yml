@@ -1,0 +1,26 @@
+uuid: 6852425c-bfce-4381-b623-bc849f2f0b27
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: title_path_auto
+label: 'title pathauto'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  cc2dd22d-9139-4510-a9cd-5419e799d708:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: cc2dd22d-9139-4510-a9cd-5419e799d708
+    context_mapping:
+      node: node
+    bundles:
+      article: article
+      list: list
+      movie: movie
+      news: news
+      page: page
+selection_logic: and
+weight: -5
+relationships: {  }
