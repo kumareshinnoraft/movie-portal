@@ -1,0 +1,29 @@
+uuid: b1fbdf5b-014d-4b76-a30b-0dc0cd00710e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_list
+    - node.type.list
+    - node.type.movie
+id: node.movie.field_list
+field_name: field_list
+entity_type: node
+bundle: movie
+label: List
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      list: list
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

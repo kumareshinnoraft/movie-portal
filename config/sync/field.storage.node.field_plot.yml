@@ -1,0 +1,19 @@
+uuid: 690db694-0cd8-45c0-84ce-efc61a741932
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_plot
+field_name: field_plot
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

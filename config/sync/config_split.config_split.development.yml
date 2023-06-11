@@ -1,0 +1,21 @@
+uuid: 5c267512-4f67-4675-8d2b-60dc58278bc9
+langcode: en
+status: true
+dependencies: {  }
+id: development
+label: development
+description: ''
+weight: 0
+folder: ../config/development
+module: {  }
+theme: {  }
+blacklist:
+  - admin_toolbar.settings
+  - admin_toolbar_search.settings
+  - admin_toolbar_tools.settings
+graylist:
+  - admin_toolbar.settings
+  - admin_toolbar_search.settings
+  - admin_toolbar_tools.settings
+graylist_dependents: true
+graylist_skip_equal: true

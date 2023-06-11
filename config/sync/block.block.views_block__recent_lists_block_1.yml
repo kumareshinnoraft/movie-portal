@@ -1,0 +1,29 @@
+uuid: 12a34982-0b6d-41fa-92e2-f3d9354fcda6
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recent_lists
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__recent_lists_block_1
+theme: bartik
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'views_block:recent_lists-block_1'
+settings:
+  id: 'views_block:recent_lists-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
